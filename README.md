@@ -9,9 +9,9 @@ The program writes a single satirical sentence to `/output/entry.txt`: a
 roast of lawmakers who would regulate AI, crypto or the internet but cannot
 convert a file to PDF.
 
-The line (191 characters):
+The line (192 characters):
 
-> They are writing the law that will govern the internet's future, and the draft lives in a Google Doc shared with "anyone with the link", comment-only, so not even its authors can download it.
+> They are writing the law that will govern the internet's future, and the draft lives in a Google Doc shared with "anyone with the link", comment-only, so not even its authors can turn it into a PDF.
 
 It was picked from 16 candidates written for this bounty. The judge brief
 weighs, in order: a one-sentence satirical roast on the subject, a real
@@ -21,9 +21,13 @@ quotable read with the punch on the last few words, and a specific
 unexpected detail over a worn tech-illiteracy cliche. This candidate's
 detail is a Google Doc shared "anyone with the link", comment-only: a
 current, specific setup nobody else in the visible field used. Its turn is
-that the lawmakers who would govern the internet cannot even download
-their own law, and the punch lands on the last few words, leaving the
-open loop that the law exists but nobody, not even its authors, can hold it.
+that the lawmakers who would govern the internet cannot even turn their
+own law into a PDF, and the punch lands on the last few words, leaving the
+open loop that the law exists but nobody, not even its authors, can hold
+it in the format they demand of everyone else. An earlier draft ended on
+"download it" instead of the PDF; it was revised because the roast must
+name the file conversion itself, and the program now guards that the line
+names PDF.
 
 The visible field was checked first: it is saturated with "prints his
 emails", "FINAL_v2.docx" filenames, 400-page bills, committees and

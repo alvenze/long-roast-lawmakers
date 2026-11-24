@@ -12,7 +12,7 @@ import os
 LINE = (
     'They are writing the law that will govern the internet\'s future, '
     'and the draft lives in a Google Doc shared with "anyone with the '
-    'link", comment-only, so not even its authors can download it.'
+    'link", comment-only, so not even its authors can turn it into a PDF.'
 )
 MAX_CHARS = 320
 
@@ -24,6 +24,8 @@ def render():
         raise ValueError("roast line must be a single line with no padding")
     if LINE.count(".") != 1 or not LINE.endswith("."):
         raise ValueError("roast line must be exactly one sentence")
+    if "PDF" not in LINE:
+        raise ValueError("roast line must name the file they cannot convert")
     return LINE
 
 
