@@ -9,7 +9,7 @@ The program writes a single satirical sentence to `/output/entry.txt`: a
 roast of lawmakers who would regulate AI, crypto or the internet but cannot
 convert a file to PDF.
 
-The line (192 characters):
+The line (198 characters):
 
 > They are writing the law that will govern the internet's future, and the draft lives in a Google Doc shared with "anyone with the link", comment-only, so not even its authors can turn it into a PDF.
 
